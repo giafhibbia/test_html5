@@ -1,0 +1,113 @@
+/*set padding to 0 and bg color white*/
+.non_pad_lr{
+	padding: 0px !important;
+}
+/*navbar menu*/
+.bg-nav{
+	background-color: #fff !important;
+}
+
+@media only screen and (max-width: 768px)
+{
+	
+	.logo{
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 1024px)
+{
+	.logo{
+		width: 12%;
+	}
+
+	.cs-nav-lang{
+		position: absolute;
+	    right: 15px;
+	    top: 0px;
+	    font-size: 12px;
+	    color: #000;
+	    text-decoration: none;
+	}
+	.cs-title-slide{
+	    position: relative;
+	    top: 50%;
+	    transform: translateY(250%);
+	}
+	.cs-content-slide{
+		position: relative;
+	    top: 50%;
+	    transform: translateY(35%);
+	}
+
+
+}
+@media only screen and (max-width: 1020px)
+{
+	.non_pad_lr div{
+		margin: 0px !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.cs-title-slide{
+	    position: relative;
+	    top: 50%;
+	    transform: translateY(100%);
+	}
+	.cs-content-slide{
+		position: relative;
+	    top: 50%;
+	    transform: translateY(25%);
+	}
+
+}
+
+.cs-menu {
+	flex-grow: 1;
+	margin-top: 5px;
+}
+
+/*.cs-nav-collapse{
+	padding-top: 20px;
+}*/
+
+.cs-menu a{
+	color: #000 !important;
+	padding: 0px 50px !important;
+}
+.cs-menu .active{
+	color: #000 !important;
+	font-weight: bold;
+}
+
+.logo img {
+	width: 100%;
+}
+.cs-btn-reg{
+	background-color: #656599 !important;
+	width: 150px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.cs-btn-log{
+	background-color: #fff !important;
+	border-color: #656599 !important;	
+	width: 150px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/*slide main banner*/
+.slide-mb {
+	padding: 0px !important;
+}
+.slide-mb img{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+/*.cs-content-slide-mb{
+	position: absolute;
+}*/
+
